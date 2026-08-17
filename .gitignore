@@ -1,6 +1,8 @@
-downloads/
-__pychache__/
+pycache/
 *.pyc
+downloads/
 .env
-bot_backup.py
+bot_token.txt
 bot-backup.py
+bot-backup.py
+bot_backup.py
