@@ -1,0 +1,127 @@
+# 📸 Instagram Reel • Post • Story Downloader Telegram Bot
+
+ A simple Telegram bot for processing supported public Instagram media links using Python, `python-telegram-bot`, and `yt-dlp`.
+
+ > ⚠️ **Disclaimer:** Use this project only with content you have permission to download or use.
+
+## ✨ Features
+
+  - 📹 **Instagram Reel** support
+  - 🖼️ **Instagram Post** support
+  - 📖 **Accessible Story** support
+  - 🔍 **Instagram URL validation**
+  - 📥 **Download Media** button
+  - ℹ️ **Built-in help and commands**
+  - 🧹 **Automatic temporary-file cleanup**
+  - 🚀 **Beginner-friendly setup**
+
+## 📋 Requirements
+
+   Before you start, make sure you have:
+
+    - Python 3.10+
+    - Git
+    - A Telegram account
+    - A Telegram Bot Token
+    - Active Internet connection
+
+## 📁 Project Structure
+
+  ```text
+    Insta-Reel-Downloader-Telegram-Bot/
+      │
+      ├── bot.py
+      ├── main.py
+      ├── requirements.txt
+      ├── .gitignore
+      ├── README.md
+      └── downloads/
+
+⚙️ Installation & Setup
+   1. Clone the repository
+     Open CMD / Terminal and run:
+    Bash
+     git clone [https://github.com/MAXX-code-hub/Insta-Reel-Downloader-Telegram-Bot.git](https://github.com/MAXX-code-hub/Insta-Reel-Downloader-Telegram-Bot.git)
+     cd Insta-Reel-Downloader-Telegram-Bot
+
+   2. Install dependencies
+     Run the following command:
+     Bash
+      python -m pip install -r requirements.txt
+
+   3. Create a Telegram Bot
+      1.Open Telegram and search for @BotFather.
+      2.Send the command: /newbot
+      3.Follow the instructions and copy the Bot Token provided by BotFather.
+
+   4. Set the Bot Token (Environment Variable)
+     Windows CMD
+    DOS
+     set TELEGRAM_BOT_TOKEN=YOUR_BOT_TOKEN
+     (Replace YOUR_BOT_TOKEN with your actual token. Example: set TELEGRAM_BOT_TOKEN=123456789:ABCdef...)
+
+🔒 Security Note: Never upload your real bot token to GitHub or share it publicly.
+
+    5. Start the Bot
+     Run the bot script:
+     Bash
+      python bot.py
+
+🚀 How to Use
+    1.Open your Telegram bot.
+    2.Send /start.
+    3.Copy a supported public Instagram URL (Reel, Post, or Story).
+    4.Send the URL to the bot.
+    5.Wait while the media is processed.
+    6.Click the Download Media button.
+
+🛠️ Quick Command Reference
+      .Action                          .Command / Shortcut
+       Check Python Versio               npython --version
+       Check Git Version                 git --version
+       Install Dependencies              python -m pip install -r requirements.txt
+       Run Bot                           python bot.py
+       Stop Bot                          Ctrl + C
+
+❓ Troubleshooting
+    1. No module named ...
+     Re-install the required packages using:
+     Bash
+      python -m pip install -r requirements.txt
+
+   2. InvalidToken Error
+     Make sure you set the token correctly in your environment before running the bot:
+
+    DOS
+     set TELEGRAM_BOT_TOKEN=YOUR_BOT_TOKEN
+     python bot.py
+
+   3. requirements.txt not found
+     Ensure you are inside the correct project directory:
+
+    Bash
+     cd Insta-Reel-Downloader-Telegram-Bot
+     python -m pip install -r requirements.txt
+
+🔒 Security
+      Never hardcode your Telegram Bot Token directly inside bot.py or any source code file.
+      Always use the environment variable TELEGRAM_BOT_TOKEN.
+      If your token is accidentally leaked or pushed to GitHub, revoke and regenerate it immediately via BotFather.
+
+⚠️ Limitations
+      Instagram platform updates may affect downloader availability.
+      Private accounts, deleted posts, restricted media, or region-locked content cannot be downloaded.
+      Successful downloads depend on the public accessibility of the link.
+
+🧑‍💻 Developer
+      Prashant
+      Instagram: @prashant.07z
+
+🤝 Contributing
+     Suggestions, bug reports, and pull requests are welcome!
+     If you find this project useful, don't forget to give the repository a ⭐ Star!
+
+📜 Usage Policy
+    This project is intended strictly for educational and personal research use.
+    Please respect copyright, user privacy, platform terms of service, and local laws.
+    Made with Python 🐍 and Telegram ✈️
