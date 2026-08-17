@@ -1,0 +1,6 @@
+downloads/
+__pychache__/
+*.pyc
+.env
+bot_backup.py
+bot-backup.py
